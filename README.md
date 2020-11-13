@@ -5,7 +5,7 @@
 
 
 
-![Home Page](img/port.PNG)
+![Home Page](img/port.png)
 
 ## Purpose
 
