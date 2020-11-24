@@ -1,21 +1,9 @@
-# portfolio
+# Portfolio
 
+## Get to know a bit about me and my work
 
-## Deployed Site: https://justinpricer.github.io/portfolio/
+## Here is the link: [https://justinpricer.github.io/Updated-Portfolio/](https://justinpricer.github.io/Updated-Portfolio/)
 
+> This is the culmination of the homework and group projects from my Coding Boot Camp at the University of Texas at Austin. Please don't hesitate to let me know if you have questions about the code or would like to reach out to me about working together.
 
-
-![Home Page](img/port.png)
-
-## Purpose
-
-A space to display work and projects that i've worked on throughout my time in the Fullstack Bootcamp
-
-
-
-### Technologies Used 
-- GitHub & GitHub Pages
-- HTML & CSS
-- JavaScript Bootstrap
-- JavaScript & JQuery
-
+> Email: justin.pricer@gmail.com

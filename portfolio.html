@@ -1,83 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Justin Pricer</title>
 </head>
+
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Justin Pricer</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+  <nav class="d-flex navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand pl-3" href="index.html">Justin Pricer</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+      aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        
-        <ul class="nav navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="https://www.linkedin.com/in/justin-pricer/" target="_blank">LinkedIn</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="https://drive.google.com/file/d/1WNER-G8hyLyhcFOnwqEjToGnXN7bZwjw/view?usp=sharing" target="_blank">Resume</a>
-            </li>
-          </ul>
-          <nav class="navbar fixed-bottom navbar-light bg-clear">
-            <li class="nav-item">
-            <a class="navbar-brand" href="https://github.com/justinpricer" target="_blank">GitHub</a></li>
-
-            <li class="nav-item">
-            <a class="navbar-brand" href="https://instagram.com/raddadinthecity" target="_blank">Instagram</a>
-          </li>
-          <li class="nav-item">
-            <a class="navbar-brand" href="mailto:justin.pricer@gmail.com" target="_blank">Email Me!</a></li>
-          </nav>
-     </div>
-  
-  </nav>
-  <div class="d-flex justify-content-center">
-      <div class="col-md-7">
-        <div class="card mt-4">
-          <div class="card-body">
-            <h1 class="card-title">Portfolio</h1>
-
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                  <a href="https://94cooper94.github.io/foodiesUnite/" target="_blank">
-                  <img src="./img/screen.png" class="img-fluid" style="padding-right:10px; padding-bottom: 10px;">
-                  </a>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                  <a href="https://atxfoodtruck.herokuapp.com/" target="_blank">
-                  <img src="./img/food.png"  class="img-fluid" style="padding-right:10px; padding-bottom: 10px;">
-                </a>
-                </div>
-          
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                  <img src="./img/gleam.jpg" class="img-fluid" style="padding-right:10px; padding-bottom: 10px;">
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                  <img src="./img/sbm.jpg" class="img-fluid" style="padding-right:10px; padding-bottom: 10px;">
-
-            
-
-           
-        </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="index.html">About</a>
+        <a class="nav-item nav-link active" href="portfolio.html">Portfolio</a>
+        <a class="nav-item nav-link" href="contact.html">Contact</a>
+      </div>
     </div>
-            </div>
-    
-    <div class="clearfix"></div>
-              
-            
-              <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-              <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </nav>
 
-                
+
+  <div class="container text-center pb-5">
+    <h1>&lt Portfolio &gt</h1>
+    <div class="container-grid d-flex justify-content-center">
+        <div class="card port-cards" style="width: 18rem;">
+            <img class="card-img-top" src="assets/images/showcase.jpg" alt="Beefy Boyz">
+            <div class="card-body">
+              <p class="card-text"><a href="https://github.com/justinpricer/Food-trucks">Beefy Boyz: a food truck finder for Austin Texas.</a></p>
+            </div>
+          </div>
+      <div class="card port-cards" style="width: 18rem;">
+        <img class="card-img-top" src="assets/images/homePage.PNG" alt="foodiesUnite">
+        <div class="card-body">
+          <p class="card-text"><a href="https://justinpricer.github.io/foodiesUnite/">Calorie tracker and meal finder.</a></p>
+        </div>
+      </div>
+      <div class="card port-cards" style="width: 18rem;">
+        <img class="card-img-top" src="assets/images/fitness.png" alt="Fitness Tracker">
+        <div class="card-body">
+          <p class="card-text"><a href="https://fitness-tracker28.herokuapp.com/">Fitness Tracker: A workout tracking application.</a></p>
+        </div>
+      </div>
+      <div class="card port-cards" style="width: 18rem;">
+          <img class="card-img-top" src="assets/images/placeholder.png" alt="open">
+          <div class="card-body">
+            <p class="card-text"><a href="link">open</a></p>
+          </div>
+        </div>
+      <div class="card port-cards" style="width: 18rem;">
+        <img class="card-img-top" src="assets/images/placeholder.png" alt="open">
+        <div class="card-body">
+          <p class="card-text"><a href="link">open</a></p>
+        </div>
+      </div>
+      <div class="card port-cards" style="width: 18rem;">
+          <img class="card-img-top" src="assets/images/placeholder.png" alt="open">
+          <div class="card-body">
+            <p class="card-text"><a href="link">open</a></p>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+  </div>
+
+  <div class="card fixed-bottom mt-5">
+    <div class="card-header text-center">
+      Copyright 2020
+    </div>
+  </div>
 </body>
+
 </html>
